@@ -1,0 +1,10 @@
+#include<iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    long long N;
+    cin >> N;
+    cout << (N*(N+1))/2 << endl;
+    return 0;
+}
